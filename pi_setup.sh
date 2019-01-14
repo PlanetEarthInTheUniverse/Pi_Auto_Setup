@@ -49,7 +49,7 @@ sudo ln -s /usr/share/zoneinfo/Asia/Seoul /etc/localtime
 # HDMI 1080p Monitor Setting  through RaspberryPi
 sudo sed -i '
   s/#hdmi_group=1.*/hdmi_group=2/
-  s/#hdmi_mode=1.*/hdmi_mode=58/
+  s/#hdmi_mode=1.*/hdmi_mode=82/
   s/#hdmi_drive=2.*/hdmi_drive=2/' /boot/config.txt
 
 # SSH Enable
